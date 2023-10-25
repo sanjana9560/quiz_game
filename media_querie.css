@@ -1,0 +1,43 @@
+
+@media (max-width: 480px) {
+    .info_box,
+    .quiz_box,
+    .result_box {
+        width: 100%;
+    }
+
+    .info_box .buttons,
+    .result_box .buttons {
+        flex-direction: column;
+    }
+
+    footer .total_que span p {
+        font-size: 14px;
+    }
+
+    footer button {
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .info_box .info-title,
+    .result_box .complete_text,
+    .result_box .score_text span {
+        font-size: 16px;
+    }
+
+    .info_box .info-list .info,
+    .quiz_box header .title {
+        font-size: 14px;
+    }
+
+    section .que_text {
+        font-size: 18px;
+    }
+
+    section .option_list .option {
+        font-size: 14px;
+    }
+}
+
+
